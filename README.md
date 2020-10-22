@@ -1,5 +1,7 @@
 # loosewebc-test
 
+A testing project for vue-cli-plugin-loosewebc
+
 ## Project setup
 ```
 npm install

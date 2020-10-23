@@ -10,7 +10,8 @@
   </div>
 </template>
 
-<script>import {DropMenu} from '@csii/vx-mobile'
+<script>
+import {DropMenu} from '@csii/vx-mobile'
 
 export default {
   name: 'drop-menu-demo',
@@ -37,7 +38,8 @@ export default {
     }
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .ui-example-child-drop-menu-3

@@ -11,7 +11,7 @@
     :rotate="rotate"
   >
     <slot></slot>
-    <template v-slot:defs>
+    <template slot="defs">
       <slot name="defs"></slot>
     </template>
   </ui-activity-indicator-rolling>

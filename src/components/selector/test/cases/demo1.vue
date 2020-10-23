@@ -40,7 +40,8 @@
   </div>
 </template>
 
-<script>import {Selector, Field, FieldItem} from '@csii/vx-mobile'
+<script>
+import {Selector, Field, FieldItem} from '@csii/vx-mobile'
 
 export default {
   name: 'selector-demo',
@@ -94,7 +95,8 @@ export default {
     },
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .ui-example-child-selector-1

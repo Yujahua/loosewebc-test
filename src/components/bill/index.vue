@@ -23,13 +23,14 @@
         <slot name="footer"></slot>
       </footer>
     </div>
-    <template v-slot:watermark="props"  v-if="!!$slots.watermark">
+    <template v-slot:watermark="props" v-if="!!$slots.watermark">
       <slot name="watermark" :coord="props.coord"></slot>
     </template>
   </ui-water-mark>
 </template>
 
-<script>import FieldItem from '../field-item'
+<script>
+import FieldItem from '../field-item'
 import WaterMark from '../water-mark'
 
 export default {
@@ -55,7 +56,8 @@ export default {
     },
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .ui-bill

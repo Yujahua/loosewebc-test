@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "loosewebc": "vue-cli-service loosewebc --target lib ./src/components/index.js"
+    "loosewebc": "vue-cli-service loosewebc --target lib --origin ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -21,7 +21,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
-    "vue-cli-plugin-loosewebc": "file:/Users/yujiahua/GitHub/GitLab/vue-cli-plugin-loosewebc"
+    "vue-cli-plugin-loosewebc": "file:../vue-cli-plugin-loosewebc"
   },
   "eslintConfig": {
     "root": true,

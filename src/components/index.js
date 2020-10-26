@@ -2,7 +2,7 @@
 const path = require('path')
 const pk = path.resolve(__dirname, '../package.json')
 
-import HelloWord from './HelloWord.vue'
+import HelloWord from './HelloWorld.vue'
 
 const version = pk
 
@@ -36,7 +36,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default{
   install,
   version,
-  Button,
   ...components,
 }
 

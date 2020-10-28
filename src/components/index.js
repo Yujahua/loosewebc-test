@@ -2,12 +2,12 @@
 const path = require('path')
 const pk = path.resolve(__dirname, '../package.json')
 
-import HelloWord from './HelloWorld.vue'
+import Icon from './Icon'
 
 const version = pk
 
 export const components = {
-  HelloWord
+  Icon
 }
 
 // Define plugin installation method

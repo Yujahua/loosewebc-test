@@ -33,3 +33,29 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0"
 }
+
+### run build web components @csii/vx-mobile for loose load
+
+```
+npm run build:@csii/vx-mobile
+```
+
+for example:
+```js
+import {Button} from '@csii/vx-mobile'
+
+import Button from '@csii/vx-mobile/components/button'
+```
+### run build web components @csii/vx-mobile/lib/x for loose load
+
+```
+npm run loosewebc
+            or
+npx vue-cli-service loosewebc (newest node v14+ supports)
+```
+
+for example:
+```js
+import Button from '@csii/vx-mobile/lib/button'
+```
+

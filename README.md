@@ -25,6 +25,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## config & faq
 
 ### rm
 
@@ -58,4 +59,16 @@ for example:
 ```js
 import Button from '@csii/vx-mobile/lib/button'
 ```
+
+### copy to vue3beta_vuecli to use
+```
+sh cp-plugin-loosewebc-windows.sh
+for windows
+
+or
+
+sh cp-plugin-loosewebc.sh
+for linux
+```
+
 
